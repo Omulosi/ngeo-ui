@@ -10,9 +10,6 @@ COPY . /ngeo-ui/
 # Install dependencies
 RUN ["yarn", ""]
 
-RUN ["pwd"]
-RUN ["ls", "-l"]
-
 EXPOSE 3000
 
 # Start app
