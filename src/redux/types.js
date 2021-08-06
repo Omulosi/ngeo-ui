@@ -1,0 +1,32 @@
+export const LOADING_USER = 'LOADING_USER';
+export const EDITING_USER = 'EDITING_USER';
+export const SUCCESS = 'SUCCESS';
+
+export const SIGNIN = 'SIGNIN';
+export const SIGNUP = 'SIGNUP';
+export const LOGOUT = 'LOGOUT';
+export const RESET_PASSWORD = 'RESET_PASSWORD';
+
+export const FETCH_USER_PROFILE = 'FETCH_USER_PROFILE';
+export const UPDATE_USER_PROFILE = 'UPDATE_USER_PROFILE';
+
+export const SET_ERRORS = 'SET_ERRORS';
+export const CLEAR_ERRORS = 'CLEAR_ERRORS';
+
+export const FETCH_COUNTIES = 'FETCH_COUNTIES';
+
+export const FETCH_SUBLOCATIONS = 'FETCH_SUBLOCATIONS';
+
+export const FETCH_INSTALLATIONS = 'FETCH_INSTALLATIONS';
+
+export const CREATE_PROJECT = 'CREATE_PROJECT';
+export const FETCH_PROJECTS = 'FETCH_PROJECTS';
+export const UPDATE_PROJECT = 'UPDATE_PROJECT';
+export const DELETE_PROJECT = 'DELETE_PROJECT';
+
+export const GET_ALL_AGENTS = 'GET_ALL_AGENTS';
+export const CREATE_AGENT = 'CREATE_AGENT';
+export const UPDATE_AGENT = 'UPDATE_AGENT';
+export const DELETE_AGENT = 'DELETE_AGENT';
+
+export const SET_AREA_ERRORS = 'SET_AREA_ERRORS';

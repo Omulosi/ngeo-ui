@@ -1,0 +1,154 @@
+{
+  "headerLogoImageName": "logo.png",
+  "title": "Interactive Map - N-Geo (GIS)",
+  "originUrl": "",
+  "feedbackUrl": "",
+  "geoserverUrl": "http://192.168.60.109:8080/geoserver/",
+  "geoserverRestUrl": "http://192.168.60.109:8080/geoserver/rest",
+  "geoserverCapabilitiesUrl": "http://192.168.60.109:8080/geoserver/wms?service=wms&version=1.3.0&request=GetCapabilities",
+  "geoserverPath": "geoserver",
+  "geoserverWorkspace": "ngeo",
+  "mapserverUrl": "http://192.168.60.109:7000/",
+  "searchNominatimUrl": "http://192.168.60.109:9000/search",
+  "printUrl": "",
+  "includeAppStats": false,
+  "htmlIdentify": false,
+  "leftClickIdentify": false,
+  "excludeIdentifyTitleName": false,
+  "showFeedbackMessageOnStartup": false,
+  "showWhatsNewOnStartup": false,
+  "googleAnalyticsID": "",
+  "appStatsUrl": "",
+  "apiUrl": "",
+  "apiUrlDev": "",
+  "termsUrl": "",
+  "whatsNewUrl": "",
+  "helpUrl": "",
+  "ieWarningUrl": "",
+  "propertyReportUrl": "",
+  "weatherRadarApiUrl": "",
+  "parcelLayer": {
+    "url": "",
+    "rollNumberFieldName": ""
+  },
+  "centerCoords": [37.9210640870001, -0.09960492000038],
+  "defaultZoom": 6.3,
+  "maxZoom": 30,
+  "imageViewerUrl": "",
+  "controls": {
+    "rotate": true,
+    "fullScreen": true,
+    "zoomInOut": true,
+    "currentLocation": true,
+    "zoomExtent": true,
+    "scale": true,
+    "scaleLine": true,
+    "basemap": true
+  },
+  "mapTheme": "",
+  "showFloatingMenuHeader": false,
+  "showLoadingScreens": false,
+  "storageKeys": {
+    "SearchHistory": "searchHistory",
+    "Draw": "myMaps",
+    "URLDontShowAgain": ""
+  },
+  "onlyStandardCursor": true,
+  "restrictOriginForUrlWindow": false,
+  "rightClickMenuVisibility": {
+    "sc-floating-menu-basic-mode": true,
+    "sc-floating-menu-property-click": true,
+    "sc-floating-menu-add-mymaps": true,
+    "sc-floating-menu-save-map-extent": true,
+    "sc-floating-menu-report-problem": true,
+    "sc-floating-menu-identify": true,
+    "sc-floating-menu-google-maps": false,
+    "sc-floating-menu-more": true
+  },
+  "tocType": "LIST",
+  "wmsGeoJsonTemplate": "",
+  "sidebarMenu": {
+    "home": { "title": "Home", "description": "Home" },
+    "dashboard": { "title": "Dashboard", "description": "Dashboard" },
+    "map": { "title": "Map", "description": "Map" },
+    "ceo": { "title": "CEO", "description": "Chief Executive Officer" },
+    "hr": { "title": "HR", "description": "Human Resource" },
+    "finance": { "title": "Finance", "description": "Finance" },
+    "cm": { "title": "CM", "description": "County Manager" },
+    "rm": { "title": "RM", "description": "Regional Manager" },
+    "foo": { "title": "FOO", "description": "Field Outreach Officer" },
+    "agent": { "title": "BEA", "description": "Business Executive Agent" },
+    "threat": { "title": "Threats", "description": "Threats" },
+    "incident": { "title": "Incidents", "description": "Incidents" },
+    "project": { "title": "Projects", "description": "Projects" },
+    "users": { "title": "Manage Users", "description": "Manage users" },
+    "account": { "title": "Account", "description": "Account" },
+    "theme": { "title": "Themes", "description": "Themes" }
+  },
+  "globalData": {
+    "appName": "N-GEO",
+    "appTagline": "A map based project management tool",
+    "appLaunchText": "Launch",
+    "siteNames": {
+      "CEO": {
+        "name": "CEO"
+      },
+      "HR": {
+        "name": "Human Resource"
+      },
+      "Finance": {
+        "name": "Finance"
+      },
+      "RM": {
+        "name": "Regional Manager"
+      },
+      "CM": {
+        "name": "County Manager"
+      },
+      "FOO": {
+        "name": "Field Outreach Officer"
+      },
+      "Agent": {
+        "name": "BEA"
+      },
+      "Project": {
+        "name": "Project"
+      },
+      "Threat": {
+        "name": "Threat"
+      },
+      "Permanent": {
+        "name": "Permanent"
+      },
+      "Contract": {
+        "name": "Contract"
+      }
+    },
+    "nairobiCountyJurisdictions": [
+      {
+        "key": "1",
+        "name": "Nairobi-1"
+      },
+      {
+        "key": "2",
+        "name": "Nairobi-2"
+      },
+      {
+        "key": "3",
+        "name": "Nairobi-3"
+      },
+      {
+        "key": "4",
+        "name": "Nairobi-4"
+      },
+      {
+        "key": "5",
+        "name": "Nairobi-5"
+      },
+      {
+        "key": "6",
+        "name": "Nairobi-6"
+      }
+    ]
+  }
+}

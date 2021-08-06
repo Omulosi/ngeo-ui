@@ -1,0 +1,92 @@
+body {
+  font-family: 'Google Sans', Helvetica, Arial, sans-serif;
+}
+
+/* Map styles for react leaflet */
+.map {
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+/* Custom popup styles */
+.custom .leaflet-popup-content-wrapper {
+  background: #e93434;
+  color: #ffffff;
+}
+
+.custom-popup .leaflet-popup-content-wrapper {
+  border-radius: 0px;
+}
+
+.metadata {
+  width: 100%;
+  display: table;
+  border-collapse: collapse;
+  font-size: 11px;
+  overflow: auto;
+  border-bottom: 1px solid #ccc;
+  max-height: 189px;
+  border-spacing: 0;
+}
+
+.metadata td {
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+.property-key {
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 1.2em;
+}
+
+.property-value {
+  font-style: italic;
+}
+
+/* customize material UI styles */
+.MuiDataGrid-root {
+  border: none !important;
+}
+
+.MuiDataGrid-toolbar,
+.MuiDataGrid-main,
+.MuiDataGrid-footer {
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.MuiButton-containedPrimary {
+  color: #fff;
+  background-color: #376fd0;
+}
+
+.mde-tabs button {
+  padding: 0.5em;
+}
+
+#identify-map-layer {
+  top: 0;
+  left: 350px;
+  position: absolute;
+  font-size: 0.8em;
+  display: block;
+  background: #fff;
+  padding: 0.1em 0.5em;
+  border-radius: 3px !important;
+  color: #5d5d5d !important;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(229, 229, 229, 1) 100%
+  );
+  box-shadow: 0px 0px 5px 0px rgba(80, 80, 80, 0.69);
+  cursor: pointer;
+  user-select: none;
+  text-align: center;
+  font-family: verdana, helvetica;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  z-index: 99999999;
+}

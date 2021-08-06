@@ -1,0 +1,293 @@
+.custom-mouse-position {
+  bottom: 0;
+  left: 50%;
+  position: absolute;
+  display: block;
+  background: #fff;
+  padding: 0.2em 1.5em;
+  border-radius: 4px !important;
+  color: #5d5d5d !important;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(229, 229, 229, 1) 100%
+  );
+  box-shadow: 0px 0px 5px 0px rgba(80, 80, 80, 0.69);
+  cursor: pointer;
+  user-select: none;
+  text-align: center;
+  font-family: verdana, helvetica;
+  margin-bottom: 5px;
+}
+
+/* =====================  Search map control ================================  */
+.nominatim.ol-search {
+  top: 135px;
+  left: 1em;
+}
+
+.nominatim.ol-control {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 4px;
+  padding: 2px;
+}
+
+.nominatim.ol-control.ol-search > button:before {
+  display: none;
+}
+
+.ol-control.ol-search > button:after {
+  display: none;
+}
+
+.nominatim.ol-control > button:first-child {
+  display: block;
+  font-size: 1.14em;
+  font-weight: 700;
+  text-decoration: none;
+  border: none;
+  border-radius: 100px;
+  color: #5d5d5d !important;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(229, 229, 229, 1) 100%
+  );
+  box-shadow: 0px 0px 5px 0px rgba(80, 80, 80, 0.69);
+  background-position: center center;
+
+  width: 38px;
+  height: 38px;
+  background-image: url(../images/search-icon.png);
+  background-color: transparent !important;
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  box-shadow: 0px 0px 5px 0px rgba(80, 80, 80, 0.69);
+  background-position: center center;
+  background-size: 24px;
+}
+
+.nominatim.ol-search > button.ol-revers {
+  width: 37px;
+  height: 37px;
+  background-color: transparent !important;
+  border: none;
+  box-shadow: 0px 0px 5px 0px rgba(80, 80, 80, 0.69);
+}
+
+.nominatim.ol-search > button.ol-revers:before {
+  content: '';
+  border: 0.1em solid currentColor;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  width: 0.55em;
+  height: 0.55em;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.nominatim.ol-search button.ol-revers:after {
+  display: inline-block;
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 0.2em;
+  height: 0.2em;
+  background-color: transparent;
+  -webkit-box-shadow: 0.35em 0 currentColor, 0 0.35em currentColor,
+    -0.35em 0 currentColor, 0 -0.35em currentColor;
+  box-shadow: 0.35em 0 currentColor, 0 0.35em currentColor,
+    -0.35em 0 currentColor, 0 -0.35em currentColor;
+}
+
+.nominatim.ol-search input {
+  display: inline-block;
+  border: 0;
+  margin: 1px 4px 1px 2px;
+  font-size: 1.14em;
+  padding-left: 0.5em;
+  height: 1.8em;
+  width: 220px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+}
+
+input[type='search' i] {
+  padding: 0.5em;
+}
+
+.nominatim.ol-search ul {
+  list-style: none;
+  padding: 0.5em;
+  margin: 0;
+  display: block;
+  clear: both;
+  cursor: pointer;
+  overflow-x: hidden;
+  z-index: 1;
+  background: #fff;
+  color: #333;
+  font-size: 0.85em;
+  max-width: 220px;
+  margin-left: 39px;
+}
+
+.nominatim.ol-search ul li {
+  padding: 0.3em 0.5em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* ========== Select control =========== */
+.ol-map .ol-control.ol-select {
+  top: 0.5em;
+  left: 4em;
+}
+
+.ol-control {
+  position: absolute;
+  /* color: #5d5d5d !important; */
+  padding: 4px;
+  /* background-color: rgb(238, 238, 238); */
+  /* color: rgb(26, 32, 38);
+  background-color: #fff; */
+  background-color: rgba(35, 48, 68, 0.8);
+  color: #fff;
+  border-radius: 4px;
+}
+
+.ol-unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.ol-control.ol-select > button:before {
+  content: 'Project Centre' !important;
+  font-size: 0.9em !important;
+  font-weight: normal;
+  position: absolute;
+  box-sizing: content-box;
+  width: 150px !important;
+  height: auto !important;
+
+  /* background-color: red !important; */
+  /* color: #5d5d5d !important; */
+
+  background: rgb(35, 48, 68) !important;
+  color: #fff;
+
+  /* background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(229, 229, 229, 1) 100%
+  ); */
+  border: none !important;
+  border: 0.5px solid rgba(229, 229, 229, 0.5) !important;
+  border-radius: 0px !important;
+  top: 0 !important;
+  left: 0 !important;
+  line-height: 1em;
+  text-align: center;
+  padding: 0.6em !important;
+  /* box-shadow: 0px 0px 5px 0px rgba(80, 80, 80, 0.69); */
+}
+
+.ol-map .ol-control.ol-select > button:after {
+  content: '';
+  position: absolute;
+  display: none;
+}
+
+.ol-select ul {
+  list-style: none;
+  margin: 0;
+  margin-top: 1.2em !important;
+  padding: 0;
+  margin-top: 0.5em;
+  width: 320px;
+}
+
+.ol-select ul > li {
+  display: block;
+  width: 100%;
+  padding-top: 0.5em !important;
+}
+
+li > div.ol-control.ol-select {
+  position: relative;
+  top: unset;
+  left: unset;
+  background: transparent;
+}
+
+.ol-select-multi li .ol-control.ol-select.ol-collapsed > div,
+.ol-select-multi li > div > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ol-select-multi li .ol-control.ol-select.ol-collapsed > div,
+.ol-select-multi li > div > div > label {
+  display: block;
+}
+
+.ol-select-multi > div > button.ol-ok {
+  display: none;
+}
+
+.ol-control.ol-select input {
+  font-size: 1em;
+  padding: 4px;
+  width: 100%;
+  border: none;
+  border: 1px solid #5d5d5d;
+  border-radius: 4px;
+  outline: none;
+}
+
+.ol-control.ol-select select {
+  font-size: 1em;
+  width: 100% !important;
+  max-width: 100% !important;
+  padding: 4px;
+  border: none;
+  background-color: #fff;
+  border: 1px solid #5d5d5d;
+  border-radius: 4px;
+  outline: none;
+}
+
+.ol-control.ol-select.ol-select-condition label div:before {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  left: 0;
+  height: 1.1em;
+  width: 1.8em;
+  background-color: rgba(229, 229, 229, 0.7) !important;
+  box-sizing: border-box;
+  border-radius: 1em;
+  padding-right: 1em !important;
+}
+
+.ol-control.ol-select.ol-select-condition input:checked ~ div:before,
+.ol-control.ol-select.ol-select-check input:checked ~ div:before {
+  color: #52d869 !important;
+  background-color: #52d869 !important;
+}

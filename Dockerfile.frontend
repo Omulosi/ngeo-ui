@@ -1,0 +1,19 @@
+# Pull official base image
+FROM node:lts
+
+# Set working directory
+WORKDIR /ngeo-ui
+
+COPY . /ngeo-ui/
+
+
+# Install dependencies
+RUN ["yarn", ""]
+
+RUN ["pwd"]
+RUN ["ls", "-l"]
+
+EXPOSE 3000
+
+# Start app
+CMD ["yarn", "start"]
